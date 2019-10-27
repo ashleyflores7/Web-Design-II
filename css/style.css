@@ -1,0 +1,29 @@
+body {
+    background-color: light rgb(201, 201, 216);
+    font-size: 12pt;
+    font-family: time new roman;
+    line-height: 14pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 5pt;
+}
+header {
+    font: size 20pt;
+    font-family: Didot;
+    color: rgb(151, 115, 115)
+}
+nav {
+    font: size 12pt;
+    font-family: Didot;
+    color: rgb(134, 84, 92)
+}
+section {
+    font: 15pt;
+    font-family: Didot;
+    color: rgb(66, 66, 66)
+}
+footer {
+    font: size 10pt;
+    font-family: Didot, time new roman;
+    color: black
+}
