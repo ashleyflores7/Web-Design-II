@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
-    }
-.container {
+}
+/* .container {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -13,4 +13,20 @@
 .first {
     grid-column-start: 1;
     grid-column-end: 3;
+} */
+body {
+  background-color: pink;
+  font-family: 'Henny Penny';
+  font-size: 40px;
+  font-weight: 300;
+}
+h1 {
+    background-color: pink;
+}
+div class {
+   background-color: pink;
+}
+summary {
+    background-color: pink;
+    font-family: 'Henny Penny';
 }
