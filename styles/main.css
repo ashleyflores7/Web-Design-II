@@ -341,64 +341,29 @@ template {
   display: none;
 }
 
-.flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  /* grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; */
-  /* grid-gap: 5px; */
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 1 px solid #fff;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: 20px 0;
-}
-
-.div class {
-  border: 1px solid #fff;
-  width: 900px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.first {
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-column-end: 3;
-  border: 1px solid #fff;
-  display: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
 body {
-  background-color: pink;
+  background-color: white;
   font-family: 'Henny Penny';
   font-size: 40px;
   font-weight: 300;
 }
 
 h1 {
-  background-color: pink;
+  background-color: white;
 }
 
 summary {
-  background-color: pink;
+  background-color: white;
   font-family: 'Henny Penny';
   font-size: 25px;
+}
+
+.container {
+  min-height: 70px;
+}
+
+.row {
+  background: white;
+  height: 50px;
 }
 /*# sourceMappingURL=main.css.map */
