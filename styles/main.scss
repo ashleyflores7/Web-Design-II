@@ -27,26 +27,37 @@
 
 body {
   background-color: white;
-  font-family: 'Henny Penny';
-  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
 }
 h1 {
     background-color: white;
+    font-size: 20px;
+    
 }
-
-summary {
+h2 {
     background-color: white;
+
+}
+h3 {
+    background-color:white;
+
+    
+}
+summary {
+    background-color :white;
     font-family: 'Henny Penny';
     font-size: 25px;
     text-align: center;
+    padding: 10%;
 
 }
-.container {
+container {
     min-height: 70px;
 }
-.row {
+row {
     background: white;
     height: 50px;
 }
