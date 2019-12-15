@@ -1,15 +1,15 @@
 $(document).ready(function () {
 
     $("#button").click(function () {
-    $('#title').addClass('hide');
+    $("#hello").removeClass('hello').addClass('button');
     });
-    
-    $('#remove').click(function () {
-    $('#title').removeClass('red');
+
+    $("#button").click(function () {
+        $("#goodbye").removeClass('button');
     });
     
     setTimeout(function () {
-    $('#title').addClass('red');
-    }, 2000);
+    $('#hello').addClass('h1');
+    }, 3000);
     
     });
